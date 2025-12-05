@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+
+/* HERO SECTION */
+.hero {
+    display: flex;               /* required */
+    justify-content: space-between; /* required */
+    align-items: center;         /* required */
+    padding: 40px;
+}
+
+/* Hero image */
+.hero-img {
+    width: 70%; 
+    height: 500px;
+    object-fit: cover;           /* required */
+    border-radius: 6px;
+}
+
+.hero-content {
+    width: 30%;
+    padding: 40px;
+}
+
+.hero-content h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;          /* required */
+    background-color: #e63946;   /* required */
+    color: white;                /* required */
+    border-radius: 6px;          /* required */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
